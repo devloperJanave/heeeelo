@@ -1,0 +1,363 @@
+a:hover{
+    text-decoration:none;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section-head {
+
+    /* background: url('../images/Frame.png'); */
+    margin-left: -100px;
+    margin-right: -100px;
+    height: 200px;
+    margin-top: -47px;
+    align-self: auto;
+  
+
+}
+
+
+
+
+
+.container-section{
+    color:black;
+    background: #D5E9CC;
+
+    text-align: center;
+  
+}
+
+.container-section::after{
+    background: #578540;
+    content: "";
+    display: block;
+    width: 102px;
+    height: 5px;
+    border-radius: 10px;
+    margin: -80px auto;
+}
+
+
+#header{
+    color: rgb(17, 17, 17);
+    background:  #fefffe;
+   
+
+}
+.container-section{
+    background: #D5E9CC;
+    height: 150px;
+
+}
+.pt-10{
+    padding: 20px;
+}
+/* .container-section .btn-apply{
+    background: #578540;
+    margin-left: 85px;
+    color: white;
+    height: 40px;
+    width: 290px;
+    text-align: left;
+  
+}
+
+
+.card-titles, img{
+
+    margin-top: -px;
+    width:28px;
+    margin-left:240px;
+} */
+
+
+.container-section .btn-apply {
+    background: #578540;
+    color: white;
+    height: 40px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+
+.mr-20{
+   margin-right: 20px;
+} 
+
+#header-title{
+    color: rgb(247, 245, 245);
+    background: #578540;
+    margin-left: -74px;
+   height: 60px ;
+}
+
+#header-title h3{
+    font-size: 31px;
+    margin-top: 10px;
+}
+
+
+#header img {
+    width: 180px;
+    height: 180px;
+    margin-left: -51px;
+    margin-bottom: -129px;
+    margin-top: -47px;
+}
+
+
+#logo img{
+  
+    margin-top: -88px;
+    width: 75px;
+    height: 75px;
+  
+    margin-left: 10px;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+   color:rgb(8, 8, 8);
+  display: block;
+  font-size: 32px;
+   padding: 30px 30px;
+   text-decoration: none;
+   
+}
+
+#menu li a:hover{
+  color:  #578540;
+  text-shadow: 3s;
+
+    
+}
+
+#banner{
+    background: url('../images/forest.png') no-repeat 0 0 ;
+    background-size: cover;
+    height: 450px;
+    margin-top: 17px;
+}
+
+.banner-title{
+    padding-top: 15rem;
+}
+
+.banner-title h1{
+     background: rgba(255,255,255,0.8);
+     display:inline-block;
+     padding: 10px;
+     margin: 0;
+
+}
+.banner-title p.lead{
+    color: white;
+    background:  #578540C9;
+    text-align: center;
+    width: 628px;
+    margin-left: 338px;
+    margin-top: -134px;
+}
+
+.service-box{
+    text-align: center;
+
+}
+
+
+
+.card-title{
+    text-align: center;
+}
+
+
+ .news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+
+ }
+ .news-post h3{
+    font-size: 1.35rem;
+     
+ }
+ .news-post h3 a{
+    text-decoration: none;
+    color: #578540;
+
+ }
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+
+}
+a.readmore{
+    font-size: 14px;
+    color:#578540;
+    text-decoration: none;
+}
+
+
+#footer-sidebar{
+    color: white;
+    background:#5C5C5C;
+    
+    padding: 20px 0;
+}
+
+#footer-sidebar img{
+    width: 195px;
+    height: 186px;
+    margin-top: 0px;
+    margin-left: 0PX;
+}
+#footer-sidebar h4{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 36px;
+    margin-left: -36px;
+    
+}
+
+
+#footer-sidebar  a{
+color: white;
+text-decoration: none;
+margin-left: 10px;
+
+
+}
+#footer-sidebar li  {
+    list-style: none;
+   
+}
+
+#image img{
+    margin-top: 7px;
+    width: 31px;
+    height: 34px;
+    margin-bottom: 10px;
+   
+}
+
+
+
+
+ .btn-apply{
+    background: #578540;
+    color: white;
+    margin-left: 65px;
+    width: 240px;
+}
+
+
+
+/* login */
+body {
+    font-family: Arial, sans-serif;
+  }
+  /* .warli-art img {
+    background-image: url('../images/login.png');
+    align-self: auto;
+    width: 741px;
+    height: 1024px;
+  } */
+  .form-section img{
+    width: 320px;
+    height: 284px;
+  
+    margin-left: 10px;
+  }
+  .form-section {
+    /* background-color: #f8f9fa; */
+    padding: 50px;
+    height: 100vh;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .form-section h3 {
+   color: #578540;
+   
+   margin-top: -57px;
+    
+
+  }
+  .form-section .form-check-label a {
+    text-decoration: underline;
+  }
+
+.form-section .btn-apply{
+    background: #578540;
+
+    margin-left: 6px;
+    width: 633px;
+}
+.art img{
+    width: 717px;
+    height:850px;
+    margin-left: -9px;
+
+}
+
+
+
+/* form .php */
+
+.container h1{
+    color:#578540;
+    
+}
+.containers-section{
+    background: #D5E9CC;
+    width: 1500px;
+    height: 350px;
+    opacity: 0px;
+    margin-left: -100px;
+}
+.pt-50{
+    padding-top: 20px;
+}
+.card-title {
+    font-weight: bold;
+  }
+
+  
+  .btn-apply {
+    background: #578540;
+    text-align: center;
+    color:white;
+  
+
+  }
+  .ml-10{
+    margin-left: 10px;
+  }
+
+/* aboutfra */
+
+.content{
+    font-size: 32px;
+          
+}
+
+
+
+
+
